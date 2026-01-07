@@ -72,24 +72,26 @@
   "about": {
     "title": "Le Maître",
     "subtitle": "Excellence & Transmission",
-    "name": "Maître Instructeur",
-    "bio": "Fort de plusieurs décennies d'expérience et de nombreuses certifications internationales, notre maître instructeur transmet avec passion l'essence des arts martiaux traditionnels et modernes.",
-    "philosophy": "\"L'art martial n'est pas seulement une technique de combat, c'est une voie de perfectionnement personnel qui transforme le corps et l'esprit.\"",
+    "name": "Grégory Bezruki",
+    "bio": "Fort de 45 ans de pratique des arts martiaux, Grégory Bezruki a passé 6 ans au Temple Shaolin Se WushuGuan en Chine (1998-2005), désigné disciple et représentant pour le Nord de la France. Titulaire du Brevet d'État d'Éducateur Sportif 1er degré (2003), il enseigne depuis 2013 à Reims.",
+    "philosophy": "\"Capable d'expliquer en profondeur les méthodes aux pratiquants pour les aider à mieux comprendre, je peux accompagner et consolider vos objectifs de progression et de bien-être.\"",
     "credentials": {
       "title": "Qualifications",
       "items": [
-        "9ème Dan en Kung Fu Shaolin",
-        "Expert en Krav Maga",
-        "Instructeur Jeet Kune Do certifié",
-        "Maître Taichi & Qigong",
-        "Plus de 30 ans d'enseignement"
+        "8ème Duan Kung Fu (USA)",
+        "8ème Dan Jeet Kune Do (USA)",
+        "8ème Dan Krav Maga (USA)",
+        "8ème Degré Temple Shaolin (Henan, Chine)",
+        "6ème Dan FFKDA Multi-disciplines",
+        "5ème Dan Taekwondo & Jiu-Jitsu Brésilien (USA)",
+        "Brevet d'État Éducateur Sportif 1er degré"
       ]
     },
     "stats": {
-      "students": "Élèves formés",
-      "years": "Années d'expérience",
+      "years": "Années de pratique",
+      "teaching": "Années d'enseignement",
       "disciplines": "Disciplines enseignées",
-      "competitions": "Compétitions gagnées"
+      "shaolin": "Ans au Temple Shaolin"
     }
   },
   "schedule": {
@@ -117,15 +119,15 @@
     "subtitle": "Rejoignez-nous",
     "address": {
       "title": "Adresse",
-      "value": "Reims, France"
+      "value": "Reims, Marne"
     },
     "phone": {
       "title": "Téléphone",
-      "value": "+33 X XX XX XX XX"
+      "value": "06 32 94 70 38"
     },
     "email": {
       "title": "Email",
-      "value": "contact@artsmartiauxreims.fr"
+      "value": "contact@arts-martiaux-bien-etre.fr"
     },
     "hours": {
       "title": "Horaires d'ouverture",
