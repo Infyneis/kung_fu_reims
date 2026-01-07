@@ -162,6 +162,18 @@
     @apply bg-background text-foreground antialiased;
   }
 
+  /* Ensure pointer cursor on interactive elements */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  a {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
   /* Smooth scrolling */
   html {
     scroll-behavior: smooth;
