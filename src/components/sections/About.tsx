@@ -6,13 +6,14 @@ import { motion, useInView } from 'framer-motion';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Award, Users, Calendar, Trophy, Quote } from 'lucide-react';
+import Image from 'next/image';
 import gsap from 'gsap';
 
 const stats = [
-  { key: 'students', value: 2000, suffix: '+', icon: Users },
-  { key: 'years', value: 30, suffix: '+', icon: Calendar },
-  { key: 'disciplines', value: 7, suffix: '', icon: Award },
-  { key: 'competitions', value: 150, suffix: '+', icon: Trophy },
+  { key: 'years', value: 45, suffix: '+', icon: Calendar },
+  { key: 'teaching', value: 12, suffix: '+', icon: Users },
+  { key: 'disciplines', value: 10, suffix: '+', icon: Award },
+  { key: 'shaolin', value: 6, suffix: '', icon: Trophy },
 ];
 
 function AnimatedCounter({
@@ -94,27 +95,32 @@ export function About() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="relative"
           >
-            {/* Image placeholder with martial arts aesthetic */}
+            {/* Main Image */}
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
-              {/* Gradient background as placeholder */}
-              <div className="absolute inset-0 bg-gradient-to-br from-crimson/20 via-ink to-gold/20" />
+              <Image
+                src="/images/greg1.jpg"
+                alt="Grégory Bezruki - Méditation au Temple Shaolin"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
+              />
 
-              {/* Decorative frame */}
-              <div className="absolute inset-4 border border-gold/30 rounded" />
-              <div className="absolute inset-8 border border-crimson/20 rounded" />
-
-              {/* Central character */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[200px] chinese-text text-gold/20">
-                  師
-                </span>
-              </div>
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
 
               {/* Corner accents */}
               <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-gold" />
               <div className="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-gold" />
               <div className="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-gold" />
               <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-gold" />
+
+              {/* Location caption */}
+              <div className="absolute bottom-4 left-4 right-4">
+                <p className="text-white/80 text-sm tracking-wider">
+                  Temple Shaolin, Henan, Chine
+                </p>
+              </div>
             </div>
 
             {/* Floating badge */}
@@ -124,8 +130,24 @@ export function About() {
               transition={{ delay: 0.5, duration: 0.6 }}
               className="absolute -bottom-6 -right-6 bg-crimson text-white px-6 py-4 rounded-lg shadow-2xl"
             >
-              <span className="text-3xl font-bold">9th</span>
-              <span className="text-sm block">Dan</span>
+              <span className="text-3xl font-bold">8th</span>
+              <span className="text-sm block">Duan</span>
+            </motion.div>
+
+            {/* Secondary image thumbnail */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={isInView ? { opacity: 1, scale: 1 } : {}}
+              transition={{ delay: 0.7, duration: 0.6 }}
+              className="absolute -top-4 -left-4 w-24 h-24 rounded-lg overflow-hidden border-2 border-gold shadow-xl hidden md:block"
+            >
+              <Image
+                src="/images/greg2.jpg"
+                alt="Grégory Bezruki"
+                fill
+                className="object-cover"
+                sizes="96px"
+              />
             </motion.div>
           </motion.div>
 
