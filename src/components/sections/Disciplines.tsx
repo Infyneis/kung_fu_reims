@@ -108,67 +108,65 @@ export function Disciplines() {
                 ? 'hover:border-crimson/50'
                 : 'hover:border-gold/50';
 
+            const cardContent = (
+              <Card
+                className={`card-martial bg-card/50 backdrop-blur-sm h-full group ${borderColorClass} ${
+                  discipline.slug ? 'cursor-pointer' : ''
+                }`}
+              >
+                <CardHeader className="pb-4">
+                  <div className="flex items-start justify-between mb-4">
+                    <div
+                      className={`w-14 h-14 rounded-lg ${bgColorClass} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}
+                    >
+                      <Icon className={`w-7 h-7 ${colorClass}`} />
+                    </div>
+                    <span className="text-3xl chinese-text text-muted-foreground/50 group-hover:text-gold transition-colors">
+                      {t(`${discipline.key}.chinese`)}
+                    </span>
+                  </div>
+                  <h3 className="text-xl font-bold text-foreground group-hover:text-gold transition-colors">
+                    {t(`${discipline.key}.name`)}
+                  </h3>
+                </CardHeader>
+                <CardContent className="pt-0">
+                  <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
+                    {t(`${discipline.key}.description`)}
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {(
+                      t.raw(`${discipline.key}.benefits`) as string[]
+                    ).map((benefit: string, index: number) => (
+                      <Badge
+                        key={index}
+                        variant="secondary"
+                        className="text-xs bg-muted/50 text-muted-foreground"
+                      >
+                        {benefit}
+                      </Badge>
+                    ))}
+                  </div>
+                  <span
+                    className={`inline-flex items-center text-sm ${colorClass} ${
+                      !discipline.slug ? 'opacity-50' : ''
+                    }`}
+                  >
+                    {t('learnMore')}
+                    <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </CardContent>
+              </Card>
+            );
+
             return (
               <motion.div key={discipline.key} variants={itemVariants}>
-                <Card
-                  className={`card-martial bg-card/50 backdrop-blur-sm h-full group cursor-pointer ${borderColorClass}`}
-                >
-                  <CardHeader className="pb-4">
-                    <div className="flex items-start justify-between mb-4">
-                      <div
-                        className={`w-14 h-14 rounded-lg ${bgColorClass} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}
-                      >
-                        <Icon className={`w-7 h-7 ${colorClass}`} />
-                      </div>
-                      <span className="text-3xl chinese-text text-muted-foreground/50 group-hover:text-gold transition-colors">
-                        {t(`${discipline.key}.chinese`)}
-                      </span>
-                    </div>
-                    <h3 className="text-xl font-bold text-foreground group-hover:text-gold transition-colors">
-                      {t(`${discipline.key}.name`)}
-                    </h3>
-                  </CardHeader>
-                  <CardContent className="pt-0">
-                    <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
-                      {t(`${discipline.key}.description`)}
-                    </p>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {(
-                        t.raw(`${discipline.key}.benefits`) as string[]
-                      ).map((benefit: string, index: number) => (
-                        <Badge
-                          key={index}
-                          variant="secondary"
-                          className="text-xs bg-muted/50 text-muted-foreground"
-                        >
-                          {benefit}
-                        </Badge>
-                      ))}
-                    </div>
-                    {discipline.slug ? (
-                      <Link href={`/disciplines/${discipline.slug}`}>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          className={`p-0 h-auto ${colorClass} hover:${colorClass} group/btn`}
-                        >
-                          {t('learnMore')}
-                          <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
-                        </Button>
-                      </Link>
-                    ) : (
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        className={`p-0 h-auto ${colorClass} hover:${colorClass} group/btn opacity-50 cursor-default`}
-                        disabled
-                      >
-                        {t('learnMore')}
-                        <ArrowRight className="w-4 h-4 ml-1" />
-                      </Button>
-                    )}
-                  </CardContent>
-                </Card>
+                {discipline.slug ? (
+                  <Link href={`/disciplines/${discipline.slug}`} className="block h-full">
+                    {cardContent}
+                  </Link>
+                ) : (
+                  cardContent
+                )}
               </motion.div>
             );
           })}
