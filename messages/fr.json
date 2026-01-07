@@ -696,6 +696,103 @@
         "description": "Découvrez le MMA et développez un système de combat complet avec les meilleurs de chaque discipline.",
         "button": "Réserver un cours d'essai"
       }
+    },
+    "children": {
+      "metadata": {
+        "title": "Cours Enfants Reims | Gymnastique & Arts Martiaux",
+        "description": "Cours de gymnastique et initiation aux arts martiaux pour enfants à Reims. Développement moteur, coordination et confiance dans une ambiance bienveillante."
+      },
+      "hero": {
+        "title": "Cours Enfants",
+        "chinese": "兒童班",
+        "subtitle": "Gymnastique & Initiation Martiale",
+        "tagline": "Grandir dans la bonne humeur"
+      },
+      "intro": {
+        "title": "L'Éveil par le Mouvement",
+        "description": "Notre programme de gymnastique pour enfants utilise des jeux et des parcours avec ou sans matériel pour développer la conscience corporelle, l'imagination et les capacités motrices fondamentales.",
+        "philosophy": "Le but est de développer les bases fondamentales de la gymnastique qui faciliteront par la suite leur évolution dans tous les sports, particulièrement les arts martiaux."
+      },
+      "approach": {
+        "title": "Notre Approche Pédagogique",
+        "description": "L'enseignement se déroule dans une atmosphère de bonne humeur et de bienveillance, où chaque enfant peut s'épanouir à son rythme.",
+        "methods": [
+          "Apprentissage par le jeu",
+          "Parcours ludiques avec matériel",
+          "Exercices adaptés à chaque âge",
+          "Encadrement bienveillant"
+        ]
+      },
+      "development": {
+        "title": "Développement de l'Enfant",
+        "items": [
+          {
+            "title": "Motricité",
+            "description": "Développement de la marche, course et sauts"
+          },
+          {
+            "title": "Orientation Spatiale",
+            "description": "Conscience du corps dans l'espace"
+          },
+          {
+            "title": "Coordination",
+            "description": "Amélioration de la latéralisation et des mouvements"
+          },
+          {
+            "title": "Équilibre",
+            "description": "Renforcement de la stabilité corporelle"
+          },
+          {
+            "title": "Persévérance",
+            "description": "Appréciation de l'effort et de la progression"
+          },
+          {
+            "title": "Respect",
+            "description": "Apprentissage du respect des autres et des règles"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Les Bienfaits pour Votre Enfant",
+        "items": [
+          "Développement physique harmonieux",
+          "Confiance en soi renforcée",
+          "Socialisation et esprit d'équipe",
+          "Discipline et concentration",
+          "Préparation aux sports et arts martiaux",
+          "Épanouissement dans un cadre sécurisé"
+        ]
+      },
+      "values": {
+        "title": "Nos Valeurs",
+        "description": "Nous accompagnons chaque enfant dans son développement physique tout en favorisant son épanouissement dans la bonne humeur et la bienveillance.",
+        "items": [
+          "Bienveillance",
+          "Bonne humeur",
+          "Respect",
+          "Effort",
+          "Progression"
+        ]
+      },
+      "instructor": {
+        "title": "L'Encadrement",
+        "description": "Les cours sont dispensés par Grégory Bezruki et son équipe, dans un environnement sécurisé et adapté aux enfants.",
+        "credentials": [
+          "Brevet d'État Éducateur Sportif",
+          "45 ans de pratique des arts martiaux",
+          "Expérience pédagogique avec les enfants",
+          "Encadrement bienveillant et professionnel"
+        ]
+      },
+      "location": {
+        "title": "Lieux des Cours",
+        "description": "Cours de gymnastique enfants à Reims et ses environs (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Offrez-lui le Meilleur Départ",
+        "description": "Inscrivez votre enfant à nos cours de gymnastique et aidez-le à développer ses capacités dans un environnement ludique et bienveillant.",
+        "button": "Réserver un cours d'essai"
+      }
     }
   }
 }

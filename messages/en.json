@@ -696,6 +696,103 @@
         "description": "Discover MMA and develop a complete combat system with the best of each discipline.",
         "button": "Book a trial class"
       }
+    },
+    "children": {
+      "metadata": {
+        "title": "Children Classes Reims | Gymnastics & Martial Arts",
+        "description": "Gymnastics and martial arts introduction classes for children in Reims. Motor development, coordination, and confidence in a caring environment."
+      },
+      "hero": {
+        "title": "Children Classes",
+        "chinese": "兒童班",
+        "subtitle": "Gymnastics & Martial Introduction",
+        "tagline": "Growing with joy"
+      },
+      "intro": {
+        "title": "Awakening Through Movement",
+        "description": "Our children's gymnastics program uses games and equipment courses to develop body awareness, imagination, and fundamental motor skills.",
+        "philosophy": "The goal is to develop fundamental gymnastics foundations that will facilitate their progression in all sports, particularly martial arts."
+      },
+      "approach": {
+        "title": "Our Teaching Approach",
+        "description": "Teaching takes place in an atmosphere of good humor and kindness, where each child can flourish at their own pace.",
+        "methods": [
+          "Learning through play",
+          "Fun equipment courses",
+          "Age-appropriate exercises",
+          "Caring supervision"
+        ]
+      },
+      "development": {
+        "title": "Child Development",
+        "items": [
+          {
+            "title": "Motor Skills",
+            "description": "Development of walking, running, and jumping"
+          },
+          {
+            "title": "Spatial Awareness",
+            "description": "Body consciousness in space"
+          },
+          {
+            "title": "Coordination",
+            "description": "Improvement of lateralization and movements"
+          },
+          {
+            "title": "Balance",
+            "description": "Strengthening body stability"
+          },
+          {
+            "title": "Perseverance",
+            "description": "Appreciation of effort and progression"
+          },
+          {
+            "title": "Respect",
+            "description": "Learning respect for others and rules"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Benefits for Your Child",
+        "items": [
+          "Harmonious physical development",
+          "Strengthened self-confidence",
+          "Socialization and team spirit",
+          "Discipline and concentration",
+          "Preparation for sports and martial arts",
+          "Flourishing in a safe environment"
+        ]
+      },
+      "values": {
+        "title": "Our Values",
+        "description": "We support each child in their physical development while fostering their growth in good humor and kindness.",
+        "items": [
+          "Kindness",
+          "Good humor",
+          "Respect",
+          "Effort",
+          "Progression"
+        ]
+      },
+      "instructor": {
+        "title": "Supervision",
+        "description": "Classes are taught by Grégory Bezruki and his team, in a secure environment adapted for children.",
+        "credentials": [
+          "State Sports Educator Diploma",
+          "45 years of martial arts practice",
+          "Pedagogical experience with children",
+          "Caring and professional supervision"
+        ]
+      },
+      "location": {
+        "title": "Class Locations",
+        "description": "Children's gymnastics classes in Reims and surrounding areas (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Give Them the Best Start",
+        "description": "Enroll your child in our gymnastics classes and help them develop their abilities in a fun and caring environment.",
+        "button": "Book a trial class"
+      }
     }
   }
 }

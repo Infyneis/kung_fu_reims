@@ -25,7 +25,7 @@ const disciplines = [
   { key: 'taichi', icon: Wind, color: 'gold', slug: 'taichi-qigong' },
   { key: 'taekwondo', icon: Target, color: 'crimson', slug: 'taekwondo' },
   { key: 'mma', icon: Flame, color: 'gold', slug: 'mma' },
-  { key: 'children', icon: Users, color: 'crimson', slug: null },
+  { key: 'children', icon: Users, color: 'crimson', slug: 'children' },
 ];
 
 const containerVariants = {
