@@ -16,6 +16,7 @@ import {
   Flame,
   Users,
   ArrowRight,
+  Circle,
 } from 'lucide-react';
 
 const disciplines = [
@@ -23,9 +24,10 @@ const disciplines = [
   { key: 'kravmaga', icon: Shield, color: 'gold', slug: 'krav-maga' },
   { key: 'jeetkundo', icon: Zap, color: 'crimson', slug: 'jeet-kune-do' },
   { key: 'taichi', icon: Wind, color: 'gold', slug: 'taichi-qigong' },
-  { key: 'taekwondo', icon: Target, color: 'crimson', slug: 'taekwondo' },
-  { key: 'mma', icon: Flame, color: 'gold', slug: 'mma' },
-  { key: 'children', icon: Users, color: 'crimson', slug: 'children' },
+  { key: 'taichichuan', icon: Circle, color: 'crimson', slug: 'tai-chi-chuan' },
+  { key: 'taekwondo', icon: Target, color: 'gold', slug: 'taekwondo' },
+  { key: 'mma', icon: Flame, color: 'crimson', slug: 'mma' },
+  { key: 'children', icon: Users, color: 'gold', slug: 'children' },
 ];
 
 const containerVariants = {

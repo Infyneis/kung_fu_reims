@@ -49,6 +49,12 @@
       "description": "Art martial interne qui harmonise corps et esprit. Le Taichi améliore l'équilibre, réduit le stress et développe l'énergie vitale.",
       "benefits": ["Équilibre & harmonie", "Réduction du stress", "Énergie vitale"]
     },
+    "taichichuan": {
+      "name": "Tai Chi Chuan",
+      "chinese": "太極拳",
+      "description": "Art martial chinois basé sur le concept du Taiji, l'équilibre du Yin et du Yang. Mouvements calmes et conscients en harmonie avec les lois naturelles du corps.",
+      "benefits": ["Art martial interne", "Équilibre Yin-Yang", "Bien-être quotidien"]
+    },
     "taekwondo": {
       "name": "Taekwondo",
       "chinese": "跆拳道",
@@ -791,6 +797,99 @@
       "cta": {
         "title": "Offrez-lui le Meilleur Départ",
         "description": "Inscrivez votre enfant à nos cours de gymnastique et aidez-le à développer ses capacités dans un environnement ludique et bienveillant.",
+        "button": "Réserver un cours d'essai"
+      }
+    },
+    "taichichuan": {
+      "metadata": {
+        "title": "Tai Chi Chuan Reims | Art Martial Interne Chinois",
+        "description": "Cours de Tai Chi Chuan à Reims. Art martial basé sur l'équilibre du Yin et du Yang. Mouvements calmes, respiration profonde et bien-être quotidien."
+      },
+      "hero": {
+        "title": "Tai Chi Chuan",
+        "chinese": "太極拳",
+        "subtitle": "L'Art du Suprême Ultime",
+        "tagline": "Équilibre du Yin et du Yang"
+      },
+      "intro": {
+        "title": "Qu'est-ce que le Tai Chi Chuan ?",
+        "description": "Le Tai Chi Chuan (Taiji Quan) appartient aux arts martiaux chinois, tirant son nom du concept philosophique du « Taiji » ou « suprême ultime », représentant l'équilibre du Yin et du Yang dans la pensée chinoise.",
+        "philosophy": "La pratique met l'accent sur des mouvements calmes et conscients en harmonie avec les lois naturelles du corps, combinés à un travail de respiration profonde."
+      },
+      "distinction": {
+        "title": "Art Martial vs Gymnastique",
+        "description": "Contrairement au Taichi Qi Gong (une gymnastique et science de la respiration), le Tai Chi Chuan conserve sa classification d'art martial tout en offrant des bienfaits identiques pour la santé.",
+        "martial": "Le Tai Chi Chuan est un véritable art martial interne, avec des applications de combat et d'autodéfense."
+      },
+      "practice": {
+        "title": "La Pratique",
+        "description": "Le Tai Chi Chuan cultive l'équilibre entre l'action et l'inaction dans la vie quotidienne.",
+        "items": [
+          "Mouvements lents et fluides",
+          "Respiration profonde et consciente",
+          "Harmonie avec les lois naturelles du corps",
+          "Équilibre entre action et repos",
+          "Cultivation de l'énergie interne"
+        ]
+      },
+      "benefits": {
+        "title": "Bienfaits pour la Santé",
+        "description": "Le Tai Chi Chuan apporte de nombreux bienfaits reconnus :",
+        "items": [
+          {
+            "title": "Attention & Perception",
+            "description": "Amélioration de la concentration et de la conscience"
+          },
+          {
+            "title": "Conscience Kinesthésique",
+            "description": "Meilleure perception du corps dans l'espace"
+          },
+          {
+            "title": "Équilibre",
+            "description": "Renforcement de la stabilité corporelle"
+          },
+          {
+            "title": "Système Musculo-squelettique",
+            "description": "Renforcement des muscles et des articulations"
+          },
+          {
+            "title": "Système Cardiovasculaire",
+            "description": "Amélioration de la circulation et de l'immunité"
+          },
+          {
+            "title": "Bien-être Quotidien",
+            "description": "Meilleure qualité de sommeil et équilibre psychologique"
+          }
+        ]
+      },
+      "audience": {
+        "title": "Pour Qui ?",
+        "description": "Le Tai Chi Chuan s'adresse aux adultes, adolescents et enfants de tous niveaux recherchant :",
+        "items": [
+          "Un art martial interne",
+          "L'équilibre corps-esprit",
+          "Le bien-être quotidien",
+          "La gestion du stress",
+          "Une pratique douce mais martiale"
+        ]
+      },
+      "instructor": {
+        "title": "Votre Instructeur",
+        "credentials": [
+          "8ème Duan Taichi Chuan (USA)",
+          "6ème Dan FFKDA Taichi-Chuan",
+          "Tai Chi Chuan Dim Mak Sifu & Master Level",
+          "Plus de 40 ans d'expérience",
+          "Brevet d'État Éducateur Sportif"
+        ]
+      },
+      "location": {
+        "title": "Lieux des Cours",
+        "description": "Cours collectifs de Tai Chi Chuan à Reims et ses environs (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Découvrez l'Équilibre Intérieur",
+        "description": "Rejoignez nos cours de Tai Chi Chuan et explorez un art martial interne millénaire pour votre bien-être.",
         "button": "Réserver un cours d'essai"
       }
     }
