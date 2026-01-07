@@ -408,6 +408,93 @@
         "description": "Rejoignez nos cours de Jeet Kune Do et explorez une approche libre et efficace du combat.",
         "button": "Réserver un cours d'essai"
       }
+    },
+    "taichi": {
+      "metadata": {
+        "title": "Taichi Qigong Reims | Gymnastique Traditionnelle Chinoise",
+        "description": "Cours de Taichi Qigong à Reims. Pratique millénaire reconnue par l'Académie de Médecine. Mouvements lents, respiration, relaxation pour tous âges."
+      },
+      "hero": {
+        "title": "Taichi Qigong",
+        "chinese": "太極氣功",
+        "subtitle": "L'Art du Souffle et du Mouvement",
+        "tagline": "Plus de 3000 ans de sagesse chinoise"
+      },
+      "intro": {
+        "title": "Qu'est-ce que le Taichi Qigong ?",
+        "description": "Le Taichi Qigong est une gymnastique traditionnelle chinoise et une science de la respiration fondée sur la connaissance et la maîtrise du souffle. Cette pratique associe mouvements lents, exercices respiratoires et concentration.",
+        "history": "Cette discipline représente une branche de la médecine traditionnelle chinoise dont les origines remontent à plus de 3000 ans."
+      },
+      "recognition": {
+        "title": "Reconnaissance Officielle",
+        "description": "En mars 2013, l'Académie de Médecine de Paris a officiellement reconnu le Qigong et le Taichi comme thérapies complémentaires, établissant cette pratique comme une approche de bien-être légitime."
+      },
+      "benefits": {
+        "title": "Bienfaits pour la Santé",
+        "description": "Le Taichi Qigong apporte de nombreux avantages pour le corps et l'esprit :",
+        "items": [
+          {
+            "title": "Détente Musculaire",
+            "description": "Libère les tensions musculaires accumulées"
+          },
+          {
+            "title": "Revitalisation",
+            "description": "Revitalise le corps en douceur"
+          },
+          {
+            "title": "Souplesse Articulaire",
+            "description": "Améliore la flexibilité des articulations"
+          },
+          {
+            "title": "Circulation",
+            "description": "Optimise la circulation sanguine et le flux d'énergie"
+          },
+          {
+            "title": "Capacité Respiratoire",
+            "description": "Renforce la fonction respiratoire"
+          },
+          {
+            "title": "Gestion du Stress",
+            "description": "Régule les émotions et réduit l'anxiété"
+          }
+        ]
+      },
+      "therapeutic": {
+        "title": "Applications Thérapeutiques",
+        "description": "Le Taichi Qigong présente des applications thérapeutiques reconnues :",
+        "items": [
+          "Aide à gérer l'hypertension artérielle",
+          "Améliore la qualité de vie des patients cardiaques",
+          "Favorise la réduction de la prise de médicaments",
+          "Favorise le calme et la relaxation profonde"
+        ]
+      },
+      "audience": {
+        "title": "Pour Qui ?",
+        "description": "Cette pratique douce convient aux personnes de tous âges recherchant :",
+        "items": [
+          "Équilibre physique et psychologique",
+          "Réduction du stress et de la fatigue",
+          "Gestion du poids",
+          "Régulation des émotions négatives"
+        ]
+      },
+      "instructor": {
+        "title": "Votre Instructeur",
+        "credentials": [
+          "8ème Duan Taichi Qigong (USA)",
+          "6ème Dan FFKDA Taichi-Chuan et Qi-Gong",
+          "Certificat de Moniteur Fédéral Taï-Chi-Chuan",
+          "Tai Chi Chuan Dim Mak Sifu & Master Level",
+          "Lohan Qigong Master Qualification",
+          "Brevet d'État Éducateur Sportif"
+        ]
+      },
+      "cta": {
+        "title": "Trouvez Votre Équilibre",
+        "description": "Rejoignez nos cours de Taichi Qigong et découvrez une pratique millénaire pour votre bien-être.",
+        "button": "Réserver un cours d'essai"
+      }
     }
   }
 }
