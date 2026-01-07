@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "title": "Arts Martiaux Reims | Kung Fu, Krav Maga, Taichi & More",
+    "description": "Discover martial arts in Reims: Kung Fu, Krav Maga, Jeet Kune Do, Taichi, Taekwondo and MMA. Classes for all ages and levels."
+  },
+  "nav": {
+    "home": "Home",
+    "disciplines": "Disciplines",
+    "about": "The Master",
+    "schedule": "Schedule",
+    "contact": "Contact",
+    "joinUs": "Join Us"
+  },
+  "hero": {
+    "subtitle": "Martial Arts in Reims",
+    "title": "The Art of Combat",
+    "titleHighlight": "Martial Excellence",
+    "description": "Discover the way of martial arts with authentic teaching. From traditional Kung Fu to modern Krav Maga, find your discipline.",
+    "cta": "Free Trial Class",
+    "ctaSecondary": "Discover Disciplines",
+    "chineseWisdom": "功夫",
+    "wisdomTranslation": "Kung Fu - Mastery through effort"
+  },
+  "disciplines": {
+    "title": "Our Disciplines",
+    "subtitle": "Excellence in diversity",
+    "description": "Complete martial arts teaching adapted to all ages and levels.",
+    "kungfu": {
+      "name": "Kung Fu",
+      "chinese": "功夫",
+      "description": "A millennial Chinese martial art, Kung Fu develops strength, flexibility and mental discipline through striking, blocking techniques and traditional forms.",
+      "benefits": ["Strength & flexibility", "Mental discipline", "Ancestral techniques"]
+    },
+    "kravmaga": {
+      "name": "Krav Maga",
+      "chinese": "格鬥術",
+      "description": "Israeli self-defense system renowned for its effectiveness in real situations. Learn to defend yourself with simple and direct techniques.",
+      "benefits": ["Effective self-defense", "Quick reflexes", "Self-confidence"]
+    },
+    "jeetkundo": {
+      "name": "Jeet Kune Do",
+      "chinese": "截拳道",
+      "description": "Created by Bruce Lee, Jeet Kune Do is a combat philosophy that uses the best of each martial art for maximum effectiveness.",
+      "benefits": ["Adaptability", "Combat efficiency", "Martial philosophy"]
+    },
+    "taichi": {
+      "name": "Taichi Qigong",
+      "chinese": "太極氣功",
+      "description": "Internal martial art that harmonizes body and mind. Taichi improves balance, reduces stress and develops vital energy.",
+      "benefits": ["Balance & harmony", "Stress reduction", "Vital energy"]
+    },
+    "taekwondo": {
+      "name": "Taekwondo",
+      "chinese": "跆拳道",
+      "description": "Korean martial art characterized by its spectacular leg techniques. Develop power, agility and body control.",
+      "benefits": ["Leg techniques", "Power & agility", "Olympic sport"]
+    },
+    "mma": {
+      "name": "MMA",
+      "chinese": "綜合格鬥",
+      "description": "Mixed Martial Arts combine the best techniques from multiple disciplines for complete standing and ground combat.",
+      "benefits": ["Complete combat", "Physical conditioning", "Versatility"]
+    },
+    "children": {
+      "name": "Children Classes",
+      "chinese": "兒童班",
+      "description": "Martial arts introduction adapted for children. Develop their motor skills, confidence and discipline in a fun and safe environment.",
+      "benefits": ["Motor development", "Self-confidence", "Fun discipline"]
+    },
+    "learnMore": "Learn more"
+  },
+  "about": {
+    "title": "The Master",
+    "subtitle": "Excellence & Transmission",
+    "name": "Master Instructor",
+    "bio": "With several decades of experience and numerous international certifications, our master instructor passionately transmits the essence of traditional and modern martial arts.",
+    "philosophy": "\"Martial art is not just a fighting technique, it is a path of personal improvement that transforms body and mind.\"",
+    "credentials": {
+      "title": "Qualifications",
+      "items": [
+        "9th Dan in Shaolin Kung Fu",
+        "Krav Maga Expert",
+        "Certified Jeet Kune Do Instructor",
+        "Taichi & Qigong Master",
+        "Over 30 years of teaching"
+      ]
+    },
+    "stats": {
+      "students": "Students trained",
+      "years": "Years of experience",
+      "disciplines": "Disciplines taught",
+      "competitions": "Competitions won"
+    }
+  },
+  "schedule": {
+    "title": "Class Schedule",
+    "subtitle": "Find the slot that suits you",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "levels": {
+      "all": "All levels",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "children": "Children"
+    },
+    "trialClass": "Book a trial class"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Join Us",
+    "address": {
+      "title": "Address",
+      "value": "Reims, France"
+    },
+    "phone": {
+      "title": "Phone",
+      "value": "+33 X XX XX XX XX"
+    },
+    "email": {
+      "title": "Email",
+      "value": "contact@artsmartiauxreims.fr"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "weekdays": "Mon - Fri: 10am - 9pm",
+      "saturday": "Sat: 9am - 6pm"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "discipline": "Desired discipline",
+      "submit": "Send",
+      "success": "Message sent successfully!"
+    }
+  },
+  "footer": {
+    "tagline": "The art of combat, the way of excellence",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Your email",
+      "subscribe": "Subscribe"
+    },
+    "copyright": "© 2024 Arts Martiaux Reims. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Legal Notice"
+    }
+  },
+  "common": {
+    "readMore": "Read more",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "viewAll": "View all"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "title": "Arts Martiaux Reims | Kung Fu, Krav Maga, Taichi & Plus",
+    "description": "Découvrez les arts martiaux à Reims : Kung Fu, Krav Maga, Jeet Kune Do, Taichi, Taekwondo et MMA. Cours pour tous âges et niveaux."
+  },
+  "nav": {
+    "home": "Accueil",
+    "disciplines": "Disciplines",
+    "about": "Le Maître",
+    "schedule": "Horaires",
+    "contact": "Contact",
+    "joinUs": "Nous Rejoindre"
+  },
+  "hero": {
+    "subtitle": "Arts Martiaux à Reims",
+    "title": "L'Art du Combat",
+    "titleHighlight": "L'Excellence Martiale",
+    "description": "Découvrez la voie des arts martiaux avec un enseignement authentique. Du Kung Fu traditionnel au Krav Maga moderne, trouvez votre discipline.",
+    "cta": "Cours d'Essai Gratuit",
+    "ctaSecondary": "Découvrir les Disciplines",
+    "chineseWisdom": "功夫",
+    "wisdomTranslation": "Kung Fu - Maîtrise par l'effort"
+  },
+  "disciplines": {
+    "title": "Nos Disciplines",
+    "subtitle": "L'excellence dans la diversité",
+    "description": "Un enseignement complet des arts martiaux adaptés à tous les âges et tous les niveaux.",
+    "kungfu": {
+      "name": "Kung Fu",
+      "chinese": "功夫",
+      "description": "Art martial chinois millénaire, le Kung Fu développe force, souplesse et discipline mentale à travers des techniques de frappe, de blocage et des formes traditionnelles.",
+      "benefits": ["Force et souplesse", "Discipline mentale", "Techniques ancestrales"]
+    },
+    "kravmaga": {
+      "name": "Krav Maga",
+      "chinese": "格鬥術",
+      "description": "Système de self-défense israélien réputé pour son efficacité en situation réelle. Apprenez à vous défendre avec des techniques simples et directes.",
+      "benefits": ["Self-défense efficace", "Réflexes rapides", "Confiance en soi"]
+    },
+    "jeetkundo": {
+      "name": "Jeet Kune Do",
+      "chinese": "截拳道",
+      "description": "Créé par Bruce Lee, le Jeet Kune Do est une philosophie de combat qui utilise le meilleur de chaque art martial pour une efficacité maximale.",
+      "benefits": ["Adaptabilité", "Efficacité combat", "Philosophie martiale"]
+    },
+    "taichi": {
+      "name": "Taichi Qigong",
+      "chinese": "太極氣功",
+      "description": "Art martial interne qui harmonise corps et esprit. Le Taichi améliore l'équilibre, réduit le stress et développe l'énergie vitale.",
+      "benefits": ["Équilibre & harmonie", "Réduction du stress", "Énergie vitale"]
+    },
+    "taekwondo": {
+      "name": "Taekwondo",
+      "chinese": "跆拳道",
+      "description": "Art martial coréen caractérisé par ses techniques de jambes spectaculaires. Développez puissance, agilité et maîtrise corporelle.",
+      "benefits": ["Techniques de jambes", "Puissance & agilité", "Sport olympique"]
+    },
+    "mma": {
+      "name": "MMA",
+      "chinese": "綜合格鬥",
+      "description": "Les Arts Martiaux Mixtes combinent les meilleures techniques de plusieurs disciplines pour un combat complet debout et au sol.",
+      "benefits": ["Combat complet", "Conditionnement physique", "Polyvalence"]
+    },
+    "children": {
+      "name": "Cours Enfants",
+      "chinese": "兒童班",
+      "description": "Initiation aux arts martiaux adaptée aux enfants. Développez leur motricité, leur confiance et leur discipline dans un cadre ludique et sécurisé.",
+      "benefits": ["Développement moteur", "Confiance en soi", "Discipline ludique"]
+    },
+    "learnMore": "En savoir plus"
+  },
+  "about": {
+    "title": "Le Maître",
+    "subtitle": "Excellence & Transmission",
+    "name": "Maître Instructeur",
+    "bio": "Fort de plusieurs décennies d'expérience et de nombreuses certifications internationales, notre maître instructeur transmet avec passion l'essence des arts martiaux traditionnels et modernes.",
+    "philosophy": "\"L'art martial n'est pas seulement une technique de combat, c'est une voie de perfectionnement personnel qui transforme le corps et l'esprit.\"",
+    "credentials": {
+      "title": "Qualifications",
+      "items": [
+        "9ème Dan en Kung Fu Shaolin",
+        "Expert en Krav Maga",
+        "Instructeur Jeet Kune Do certifié",
+        "Maître Taichi & Qigong",
+        "Plus de 30 ans d'enseignement"
+      ]
+    },
+    "stats": {
+      "students": "Élèves formés",
+      "years": "Années d'expérience",
+      "disciplines": "Disciplines enseignées",
+      "competitions": "Compétitions gagnées"
+    }
+  },
+  "schedule": {
+    "title": "Horaires des Cours",
+    "subtitle": "Trouvez le créneau qui vous convient",
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi"
+    },
+    "levels": {
+      "all": "Tous niveaux",
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé",
+      "children": "Enfants"
+    },
+    "trialClass": "Réserver un cours d'essai"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Rejoignez-nous",
+    "address": {
+      "title": "Adresse",
+      "value": "Reims, France"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "value": "+33 X XX XX XX XX"
+    },
+    "email": {
+      "title": "Email",
+      "value": "contact@artsmartiauxreims.fr"
+    },
+    "hours": {
+      "title": "Horaires d'ouverture",
+      "weekdays": "Lun - Ven: 10h - 21h",
+      "saturday": "Sam: 9h - 18h"
+    },
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "discipline": "Discipline souhaitée",
+      "submit": "Envoyer",
+      "success": "Message envoyé avec succès!"
+    }
+  },
+  "footer": {
+    "tagline": "L'art du combat, la voie de l'excellence",
+    "quickLinks": "Liens Rapides",
+    "followUs": "Suivez-nous",
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Votre email",
+      "subscribe": "S'abonner"
+    },
+    "copyright": "© 2024 Arts Martiaux Reims. Tous droits réservés.",
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Mentions légales"
+    }
+  },
+  "common": {
+    "readMore": "En savoir plus",
+    "close": "Fermer",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "viewAll": "Voir tout"
+  }
+}
