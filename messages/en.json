@@ -273,6 +273,81 @@
         "description": "Join our Kung Fu classes and discover a millennial martial art.",
         "button": "Book a trial class"
       }
+    },
+    "kravmaga": {
+      "metadata": {
+        "title": "Krav Maga Reims | Effective Self Defense",
+        "description": "Krav Maga and Self Defense classes in Reims with Grégory Bezruki, 8th Dan. Official system of the Israeli military. Simplicity, speed, effectiveness."
+      },
+      "hero": {
+        "title": "Krav Maga",
+        "subtitle": "Self Defense",
+        "chinese": "格鬥術",
+        "tagline": "Close-range combat - Maximum effectiveness"
+      },
+      "intro": {
+        "title": "What is Krav Maga?",
+        "description": "Krav Maga means \"combat with contact\" or \"close-range fighting\" in Hebrew. This discipline prioritizes effectiveness over aesthetics, teaching practical principles rather than rigid techniques or choreographed responses to coded attacks.",
+        "philosophy": "The ultimate goal is to achieve mastery where practitioners can \"manage confrontations without causing irreparable harm to aggressors.\""
+      },
+      "recognition": {
+        "title": "Official Recognition",
+        "description": "Krav Maga is the official self-defense and combat system for Tsahal (Israeli military), Israeli police, and security services. Numerous U.S. law enforcement units, including the FBI, have adopted this system."
+      },
+      "principles": {
+        "title": "The 4 Foundational Principles",
+        "items": [
+          {
+            "name": "Simplicity",
+            "description": "Simple and natural movements, accessible to everyone"
+          },
+          {
+            "name": "Speed",
+            "description": "Instant reactions to danger"
+          },
+          {
+            "name": "Effectiveness",
+            "description": "Priority on effectiveness over aesthetics"
+          },
+          {
+            "name": "Self-control",
+            "description": "Emotional mastery and stress management"
+          }
+        ]
+      },
+      "training": {
+        "title": "Training Approach",
+        "description": "Classes combine physical exercises, technical drills, and tactical scenarios designed to build mental discipline and stress-management capabilities.",
+        "approach": "The methodology emphasizes adaptability and understanding underlying principles rather than memorizing fixed techniques.",
+        "stress": "Emphasis is placed on reflexes and simplicity to remain effective even under intense stress.",
+        "items": [
+          "Responses to grabs and chokes",
+          "Defense against armed attacks",
+          "Stress situation management",
+          "Technical drills and tactical scenarios",
+          "Adapted physical conditioning"
+        ]
+      },
+      "accessibility": {
+        "title": "Accessible to Everyone",
+        "description": "The program features very simple movements that make it accessible to everyone, regardless of prior martial arts experience or fitness level."
+      },
+      "instructor": {
+        "title": "Your Instructor",
+        "credentials": [
+          "8th Dan Krav Maga (USA)",
+          "8th Black Belt Krav Maga Self Defense",
+          "Level 8 Police Tactics Instructor (PTIOA)",
+          "Navy SEAL Fighter Instructor",
+          "US Army Green Beret Combative Arts Instructor",
+          "State Sports Educator Diploma"
+        ]
+      },
+      "cta": {
+        "title": "Learn to Defend Yourself",
+        "description": "Join our Krav Maga classes and develop effective reflexes for your safety.",
+        "button": "Book a trial class"
+      }
     }
   }
 }

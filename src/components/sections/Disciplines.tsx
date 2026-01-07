@@ -20,7 +20,7 @@ import {
 
 const disciplines = [
   { key: 'kungfu', icon: Sword, color: 'crimson', slug: 'kung-fu' },
-  { key: 'kravmaga', icon: Shield, color: 'gold', slug: null },
+  { key: 'kravmaga', icon: Shield, color: 'gold', slug: 'krav-maga' },
   { key: 'jeetkundo', icon: Zap, color: 'crimson', slug: null },
   { key: 'taichi', icon: Wind, color: 'gold', slug: null },
   { key: 'taekwondo', icon: Target, color: 'crimson', slug: null },
