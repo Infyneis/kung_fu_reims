@@ -23,10 +23,10 @@ const socialLinks = [
 
 const quickLinks = [
   { key: 'home', href: '/' },
-  { key: 'disciplines', href: '#disciplines' },
-  { key: 'about', href: '#about' },
-  { key: 'schedule', href: '#schedule' },
-  { key: 'contact', href: '#contact' },
+  { key: 'disciplines', href: '/#disciplines' },
+  { key: 'about', href: '/#about' },
+  { key: 'schedule', href: '/#schedule' },
+  { key: 'contact', href: '/#contact' },
 ];
 
 export function Footer() {

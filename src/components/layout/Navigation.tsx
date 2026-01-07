@@ -12,10 +12,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const navItems = [
   { key: 'home', href: '/' },
-  { key: 'disciplines', href: '#disciplines' },
-  { key: 'about', href: '#about' },
-  { key: 'schedule', href: '#schedule' },
-  { key: 'contact', href: '#contact' },
+  { key: 'disciplines', href: '/#disciplines' },
+  { key: 'about', href: '/#about' },
+  { key: 'schedule', href: '/#schedule' },
+  { key: 'contact', href: '/#contact' },
 ];
 
 export function Navigation() {
@@ -47,13 +47,17 @@ export function Navigation() {
 
   const handleNavClick = (href: string) => {
     setIsOpen(false);
-    if (href.startsWith('#')) {
-      const element = document.querySelector(href);
+    // Handle hash links on the same page
+    if (href.includes('#')) {
+      const hash = href.split('#')[1];
+      const element = document.getElementById(hash);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     }
   };
+
+  const isHomePage = pathname === '/' || pathname === '';
 
   return (
     <motion.header
@@ -98,7 +102,7 @@ export function Navigation() {
                 key={item.key}
                 href={item.href}
                 onClick={(e) => {
-                  if (item.href.startsWith('#')) {
+                  if (item.href.includes('#') && isHomePage) {
                     e.preventDefault();
                     handleNavClick(item.href);
                   }
@@ -106,7 +110,7 @@ export function Navigation() {
                 className={cn(
                   'px-4 py-2 text-sm font-medium rounded-md transition-all duration-200',
                   'hover:text-gold hover:bg-gold/10',
-                  pathname === item.href
+                  pathname === item.href || (item.href === '/' && isHomePage)
                     ? 'text-gold bg-gold/10'
                     : 'text-muted-foreground'
                 )}
@@ -173,15 +177,17 @@ export function Navigation() {
                         <Link
                           href={item.href}
                           onClick={(e) => {
-                            if (item.href.startsWith('#')) {
+                            if (item.href.includes('#') && isHomePage) {
                               e.preventDefault();
                               handleNavClick(item.href);
+                            } else {
+                              setIsOpen(false);
                             }
                           }}
                           className={cn(
                             'block px-4 py-3 text-base font-medium rounded-md transition-all',
                             'hover:text-gold hover:bg-gold/10',
-                            pathname === item.href
+                            pathname === item.href || (item.href === '/' && isHomePage)
                               ? 'text-gold bg-gold/10'
                               : 'text-foreground'
                           )}
