@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="50%" style="stop-color:#F4D03F"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+
+  <!-- Border -->
+  <rect x="4" y="4" width="172" height="172" rx="36" fill="none" stroke="url(#gold)" stroke-width="3"/>
+
+  <!-- Chinese character 武 -->
+  <text
+    x="90"
+    y="90"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="serif"
+    font-size="100"
+    font-weight="bold"
+    fill="url(#gold)"
+  >武</text>
+</svg>
