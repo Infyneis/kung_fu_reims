@@ -585,6 +585,117 @@
         "description": "Rejoignez nos cours de Taekwondo et découvrez un art martial spectaculaire et efficace.",
         "button": "Réserver un cours d'essai"
       }
+    },
+    "mma": {
+      "metadata": {
+        "title": "MMA Reims | Arts Martiaux Mixtes",
+        "description": "Cours de MMA à Reims avec Grégory Bezruki. Arts Martiaux Mixtes combinant Kung-Fu, Jiu-Jitsu Brésilien, Kick-boxing, Judo et Grappling."
+      },
+      "hero": {
+        "title": "MMA",
+        "chinese": "綜合格鬥",
+        "subtitle": "Arts Martiaux Mixtes",
+        "tagline": "Le combat complet"
+      },
+      "intro": {
+        "title": "Qu'est-ce que le MMA ?",
+        "description": "Le MMA (Mixed Martial Arts) ou Arts Martiaux Mixtes, anciennement appelé combat libre, free fight ou pancrace, est un sport de combat de percussion-préhension. Il combine les meilleures techniques de plusieurs arts martiaux pour un système de combat complet.",
+        "philosophy": "Le MMA fusionne les techniques de frappe — coups de pied, poings, genoux et coudes — avec le grappling, les projections et les techniques de soumission."
+      },
+      "disciplines": {
+        "title": "Disciplines Intégrées",
+        "description": "Le programme MMA puise dans de multiples arts martiaux pour créer un système de combat polyvalent :",
+        "items": [
+          "Karaté",
+          "Kung-Fu",
+          "Sanda",
+          "Jeet Kune Do",
+          "Kick-boxing",
+          "Jiu-Jitsu Brésilien",
+          "Judo",
+          "Grappling"
+        ]
+      },
+      "techniques": {
+        "title": "Techniques de Combat",
+        "striking": {
+          "title": "Percussion (Striking)",
+          "items": [
+            "Coups de poing",
+            "Coups de pied",
+            "Coups de genou",
+            "Coups de coude"
+          ]
+        },
+        "grappling": {
+          "title": "Préhension (Grappling)",
+          "items": [
+            "Projections",
+            "Amenées au sol",
+            "Contrôle au sol",
+            "Techniques de soumission"
+          ]
+        }
+      },
+      "benefits": {
+        "title": "Bienfaits du MMA",
+        "items": [
+          {
+            "title": "Condition Physique Complète",
+            "description": "Développement de la force, endurance, explosivité et souplesse"
+          },
+          {
+            "title": "Polyvalence",
+            "description": "Maîtrise du combat debout et au sol"
+          },
+          {
+            "title": "Self-défense Réaliste",
+            "description": "Techniques applicables en situation réelle"
+          },
+          {
+            "title": "Mental d'Acier",
+            "description": "Développement de la résilience et de la détermination"
+          },
+          {
+            "title": "Confiance en Soi",
+            "description": "Assurance face à toute situation de confrontation"
+          },
+          {
+            "title": "Esprit de Compétition",
+            "description": "Possibilité de participer à des compétitions officielles"
+          }
+        ]
+      },
+      "audience": {
+        "title": "Pour Qui ?",
+        "description": "Le MMA s'adresse à tous ceux qui recherchent :",
+        "items": [
+          "Un sport de combat complet",
+          "Un conditionnement physique intense",
+          "Une self-défense polyvalente",
+          "Un défi mental et physique",
+          "La compétition sportive"
+        ]
+      },
+      "instructor": {
+        "title": "Votre Instructeur",
+        "credentials": [
+          "8ème Duan Kung Fu (USA)",
+          "8ème Dan Jeet Kune Do (USA)",
+          "5ème Dan Jiu-Jitsu Brésilien (USA)",
+          "6ème Dan FFKDA Multi-disciplines",
+          "Brevet d'État Éducateur Sportif"
+        ]
+      },
+      "location": {
+        "title": "Lieux des Cours",
+        "description": "Cours collectifs de MMA à Reims et ses environs (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Rejoignez le Combat",
+        "description": "Découvrez le MMA et développez un système de combat complet avec les meilleurs de chaque discipline.",
+        "button": "Réserver un cours d'essai"
+      }
     }
   }
 }

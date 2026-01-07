@@ -585,6 +585,117 @@
         "description": "Join our Taekwondo classes and discover a spectacular and effective martial art.",
         "button": "Book a trial class"
       }
+    },
+    "mma": {
+      "metadata": {
+        "title": "MMA Reims | Mixed Martial Arts",
+        "description": "MMA classes in Reims with Grégory Bezruki. Mixed Martial Arts combining Kung-Fu, Brazilian Jiu-Jitsu, Kick-boxing, Judo and Grappling."
+      },
+      "hero": {
+        "title": "MMA",
+        "chinese": "綜合格鬥",
+        "subtitle": "Mixed Martial Arts",
+        "tagline": "Complete combat"
+      },
+      "intro": {
+        "title": "What is MMA?",
+        "description": "MMA (Mixed Martial Arts), formerly known as free fighting or pankration, is a striking-grappling combat sport. It combines the best techniques from multiple martial arts for a complete combat system.",
+        "philosophy": "MMA fuses striking techniques—kicks, punches, knees, and elbows—with grappling, throws, and submission techniques."
+      },
+      "disciplines": {
+        "title": "Integrated Disciplines",
+        "description": "The MMA program draws from multiple martial arts to create a versatile combat system:",
+        "items": [
+          "Karate",
+          "Kung-Fu",
+          "Sanda",
+          "Jeet Kune Do",
+          "Kick-boxing",
+          "Brazilian Jiu-Jitsu",
+          "Judo",
+          "Grappling"
+        ]
+      },
+      "techniques": {
+        "title": "Combat Techniques",
+        "striking": {
+          "title": "Striking",
+          "items": [
+            "Punches",
+            "Kicks",
+            "Knee strikes",
+            "Elbow strikes"
+          ]
+        },
+        "grappling": {
+          "title": "Grappling",
+          "items": [
+            "Throws",
+            "Takedowns",
+            "Ground control",
+            "Submission techniques"
+          ]
+        }
+      },
+      "benefits": {
+        "title": "Benefits of MMA",
+        "items": [
+          {
+            "title": "Complete Physical Conditioning",
+            "description": "Development of strength, endurance, explosiveness, and flexibility"
+          },
+          {
+            "title": "Versatility",
+            "description": "Mastery of both standing and ground combat"
+          },
+          {
+            "title": "Realistic Self-Defense",
+            "description": "Techniques applicable in real situations"
+          },
+          {
+            "title": "Mental Fortitude",
+            "description": "Development of resilience and determination"
+          },
+          {
+            "title": "Self-Confidence",
+            "description": "Assurance in any confrontation situation"
+          },
+          {
+            "title": "Competitive Spirit",
+            "description": "Opportunity to participate in official competitions"
+          }
+        ]
+      },
+      "audience": {
+        "title": "Who Is It For?",
+        "description": "MMA is for everyone seeking:",
+        "items": [
+          "A complete combat sport",
+          "Intense physical conditioning",
+          "Versatile self-defense",
+          "A mental and physical challenge",
+          "Sports competition"
+        ]
+      },
+      "instructor": {
+        "title": "Your Instructor",
+        "credentials": [
+          "8th Duan Kung Fu (USA)",
+          "8th Dan Jeet Kune Do (USA)",
+          "5th Dan Brazilian Jiu-Jitsu (USA)",
+          "6th Dan FFKDA Multi-disciplines",
+          "State Sports Educator Diploma"
+        ]
+      },
+      "location": {
+        "title": "Class Locations",
+        "description": "Collective MMA classes in Reims and surrounding areas (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Join the Fight",
+        "description": "Discover MMA and develop a complete combat system with the best of each discipline.",
+        "button": "Book a trial class"
+      }
     }
   }
 }
