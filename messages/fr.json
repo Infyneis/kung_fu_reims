@@ -348,6 +348,66 @@
         "description": "Rejoignez nos cours de Krav Maga et développez des réflexes efficaces pour votre sécurité.",
         "button": "Réserver un cours d'essai"
       }
+    },
+    "jeetkundo": {
+      "metadata": {
+        "title": "Jeet Kune Do Reims | L'Art de Bruce Lee",
+        "description": "Cours de Jeet Kune Do à Reims avec Grégory Bezruki, 8ème Dan. La voie du poing qui intercepte, fondé par Bruce Lee en 1967."
+      },
+      "hero": {
+        "title": "Jeet Kune Do",
+        "chinese": "截拳道",
+        "subtitle": "La Voie du Poing qui Intercepte",
+        "tagline": "Fondé par Bruce Lee en 1967"
+      },
+      "intro": {
+        "title": "Qu'est-ce que le Jeet Kune Do ?",
+        "description": "Le Jeet Kune Do, littéralement « la voie du poing qui intercepte », a été créé par Bruce Lee autour de 1967. Cette discipline est née de ses recherches approfondies en sciences humaines, notamment la kinésiologie et la physiologie, analysant comment les humains bougent et combattent naturellement.",
+        "philosophy": "Bruce Lee envisageait un système martial mettant l'accent sur la « non-méthode » et le « style sans style », privilégiant la liberté totale — athlétique et spirituelle — des pratiquants plutôt que des contraintes systématiques rigides."
+      },
+      "brucelee": {
+        "title": "L'Héritage de Bruce Lee",
+        "description": "Bruce Lee a reconnu les limitations inhérentes à tous les systèmes de combat existants — même ceux qu'il avait lui-même développés avec une grande efficacité. Sa philosophie s'articule autour de la compréhension du comportement humain, des motivations et du développement personnel.",
+        "quote": "« Absorbe ce qui est utile, rejette ce qui est inutile, ajoute ce qui t'est propre. »"
+      },
+      "ranges": {
+        "title": "Les 3 Distances de Combat",
+        "items": [
+          {
+            "name": "Distance Longue",
+            "description": "Travail des coups de pied et techniques à longue portée"
+          },
+          {
+            "name": "Combat Rapproché",
+            "description": "Techniques de poings, coudes et corps à corps"
+          },
+          {
+            "name": "Immobilisation",
+            "description": "Techniques au sol, clés et soumissions"
+          }
+        ]
+      },
+      "synthesis": {
+        "title": "Synthèse des Arts Martiaux",
+        "description": "Le système puise dans de multiples arts martiaux, synthétisant les techniques efficaces à travers les disciplines :",
+        "arts": ["Karaté", "Kung Fu", "Kickboxing", "Jiu-Jitsu Brésilien", "Judo", "Grappling"]
+      },
+      "instructor": {
+        "title": "Votre Instructeur",
+        "note": "Bruce Lee reste le seul maître authentique du système original. Grégory Bezruki enseigne les techniques essentielles du Jeet Kune Do.",
+        "credentials": [
+          "8ème Dan Jeet Kune Do (USA)",
+          "Représentant désigné pour la France par Larry Hartsell",
+          "Diplôme d'instructeur Académie Joaquim Almeria Las Vegas",
+          "6ème Dan FFKDA Jeet Kune Do",
+          "Brevet d'État Éducateur Sportif"
+        ]
+      },
+      "cta": {
+        "title": "Découvrez l'Art de Bruce Lee",
+        "description": "Rejoignez nos cours de Jeet Kune Do et explorez une approche libre et efficace du combat.",
+        "button": "Réserver un cours d'essai"
+      }
     }
   }
 }

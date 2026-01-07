@@ -348,6 +348,66 @@
         "description": "Join our Krav Maga classes and develop effective reflexes for your safety.",
         "button": "Book a trial class"
       }
+    },
+    "jeetkundo": {
+      "metadata": {
+        "title": "Jeet Kune Do Reims | Bruce Lee's Art",
+        "description": "Jeet Kune Do classes in Reims with Grégory Bezruki, 8th Dan. The way of the intercepting fist, founded by Bruce Lee in 1967."
+      },
+      "hero": {
+        "title": "Jeet Kune Do",
+        "chinese": "截拳道",
+        "subtitle": "The Way of the Intercepting Fist",
+        "tagline": "Founded by Bruce Lee in 1967"
+      },
+      "intro": {
+        "title": "What is Jeet Kune Do?",
+        "description": "Jeet Kune Do, literally \"the way of the intercepting fist,\" was established by Bruce Lee around 1967. This discipline emerged from his extensive research in human sciences, including kinesiology and physiology, analyzing how humans naturally move and fight.",
+        "philosophy": "Bruce Lee envisioned a martial system emphasizing \"non-method\" and \"style without style,\" prioritizing total freedom—both athletic and spiritual—for practitioners over rigid systematic constraints."
+      },
+      "brucelee": {
+        "title": "Bruce Lee's Legacy",
+        "description": "Bruce Lee recognized inherent limitations in all existing combat systems—even highly effective ones he himself had developed. His philosophy centers on understanding human behavior, motivations, and personal development.",
+        "quote": "\"Absorb what is useful, discard what is useless, add what is uniquely your own.\""
+      },
+      "ranges": {
+        "title": "The 3 Combat Ranges",
+        "items": [
+          {
+            "name": "Long Range",
+            "description": "Kicking and long-range techniques"
+          },
+          {
+            "name": "Close Range Combat",
+            "description": "Punching, elbow, and close-quarter techniques"
+          },
+          {
+            "name": "Immobilization",
+            "description": "Ground techniques, locks, and submissions"
+          }
+        ]
+      },
+      "synthesis": {
+        "title": "Martial Arts Synthesis",
+        "description": "The system draws from multiple martial arts, synthesizing effective techniques across disciplines:",
+        "arts": ["Karate", "Kung Fu", "Kickboxing", "Brazilian Jiu-Jitsu", "Judo", "Grappling"]
+      },
+      "instructor": {
+        "title": "Your Instructor",
+        "note": "Bruce Lee remains the sole authentic master of the original system. Grégory Bezruki teaches the essential techniques of Jeet Kune Do.",
+        "credentials": [
+          "8th Dan Jeet Kune Do (USA)",
+          "Designated representative for France by Larry Hartsell",
+          "Instructor Diploma Joaquim Almeria Academy Las Vegas",
+          "6th Dan FFKDA Jeet Kune Do",
+          "State Sports Educator Diploma"
+        ]
+      },
+      "cta": {
+        "title": "Discover Bruce Lee's Art",
+        "description": "Join our Jeet Kune Do classes and explore a free and effective approach to combat.",
+        "button": "Book a trial class"
+      }
     }
   }
 }
