@@ -23,7 +23,7 @@ const disciplines = [
   { key: 'kravmaga', icon: Shield, color: 'gold', slug: 'krav-maga' },
   { key: 'jeetkundo', icon: Zap, color: 'crimson', slug: 'jeet-kune-do' },
   { key: 'taichi', icon: Wind, color: 'gold', slug: 'taichi-qigong' },
-  { key: 'taekwondo', icon: Target, color: 'crimson', slug: null },
+  { key: 'taekwondo', icon: Target, color: 'crimson', slug: 'taekwondo' },
   { key: 'mma', icon: Flame, color: 'gold', slug: null },
   { key: 'children', icon: Users, color: 'crimson', slug: null },
 ];

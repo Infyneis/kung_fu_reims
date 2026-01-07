@@ -495,6 +495,96 @@
         "description": "Join our Taichi Qigong classes and discover an ancient practice for your well-being.",
         "button": "Book a trial class"
       }
+    },
+    "taekwondo": {
+      "metadata": {
+        "title": "Taekwondo Reims | Korean Martial Art",
+        "description": "Taekwondo classes in Reims with Grégory Bezruki, 5th Dan. The way of the foot and fist, Korean martial art specializing in leg techniques."
+      },
+      "hero": {
+        "title": "Taekwondo",
+        "chinese": "跆拳道",
+        "subtitle": "The Way of the Foot and Fist",
+        "tagline": "Korean martial art"
+      },
+      "intro": {
+        "title": "What is Taekwondo?",
+        "description": "Taekwondo, literally \"the way of the foot and fist,\" is a martial art of Korean origin. Characterized by its spectacular leg techniques, it combines power, agility, and precision in a complete combat system.",
+        "philosophy": "This martial art develops not only physical capabilities but also character, self-confidence, and mental well-being of its practitioners."
+      },
+      "techniques": {
+        "title": "Leg Technique Specialization",
+        "description": "Taekwondo distinguishes itself through exceptional mastery of leg techniques, offering a variety of powerful and spectacular kicks.",
+        "items": [
+          "Roundhouse kicks",
+          "Spinning kicks",
+          "Jumping kicks",
+          "Blocking techniques",
+          "Dynamic combinations"
+        ]
+      },
+      "benefits": {
+        "title": "Benefits of Taekwondo",
+        "items": [
+          {
+            "title": "Physical Fitness",
+            "description": "Development of strength, flexibility, and endurance"
+          },
+          {
+            "title": "Self-Confidence",
+            "description": "Strengthening of self-esteem and assurance"
+          },
+          {
+            "title": "Character Development",
+            "description": "Discipline, respect, and perseverance"
+          },
+          {
+            "title": "Mental Well-being",
+            "description": "Stress management and emotional balance"
+          },
+          {
+            "title": "Social Engagement",
+            "description": "Integration into a community of practitioners"
+          },
+          {
+            "title": "Self-Defense",
+            "description": "Effective techniques for protection"
+          }
+        ]
+      },
+      "women": {
+        "title": "Taekwondo & Women's Self-Defense",
+        "description": "Taekwondo is particularly recommended for women wanting to learn self-defense. Leg techniques allow maintaining a safe distance from an aggressor while developing confidence and assurance."
+      },
+      "audience": {
+        "title": "Who Is It For?",
+        "description": "Taekwondo is for everyone seeking:",
+        "items": [
+          "Complete sports practice",
+          "Spectacular martial art",
+          "Personal development",
+          "Effective self-defense",
+          "Competition (Olympic sport)"
+        ]
+      },
+      "instructor": {
+        "title": "Your Instructor",
+        "credentials": [
+          "5th Dan Taekwondo (USA)",
+          "5th Dan Tang Soo Do (USA)",
+          "6th Dan FFKDA Multi-disciplines",
+          "State Sports Educator Diploma"
+        ]
+      },
+      "location": {
+        "title": "Class Locations",
+        "description": "Taekwondo classes in Reims and surrounding areas (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Start Your Taekwondo Journey",
+        "description": "Join our Taekwondo classes and discover a spectacular and effective martial art.",
+        "button": "Book a trial class"
+      }
     }
   }
 }

@@ -495,6 +495,96 @@
         "description": "Rejoignez nos cours de Taichi Qigong et découvrez une pratique millénaire pour votre bien-être.",
         "button": "Réserver un cours d'essai"
       }
+    },
+    "taekwondo": {
+      "metadata": {
+        "title": "Taekwondo Reims | Art Martial Coréen",
+        "description": "Cours de Taekwondo à Reims avec Grégory Bezruki, 5ème Dan. La voie du pied et du poing, art martial coréen spécialisé dans les techniques de jambes."
+      },
+      "hero": {
+        "title": "Taekwondo",
+        "chinese": "跆拳道",
+        "subtitle": "La Voie du Pied et du Poing",
+        "tagline": "Art martial coréen"
+      },
+      "intro": {
+        "title": "Qu'est-ce que le Taekwondo ?",
+        "description": "Le Taekwondo, littéralement « la voie du pied et du poing », est un art martial d'origine coréenne. Caractérisé par ses techniques de jambes spectaculaires, il combine puissance, agilité et précision dans un système de combat complet.",
+        "philosophy": "Cet art martial développe non seulement les capacités physiques mais aussi le caractère, la confiance en soi et le bien-être mental de ses pratiquants."
+      },
+      "techniques": {
+        "title": "Spécialisation Techniques de Jambes",
+        "description": "Le Taekwondo se distingue par sa maîtrise exceptionnelle des techniques de jambes, offrant une variété de coups de pied puissants et spectaculaires.",
+        "items": [
+          "Coups de pied circulaires",
+          "Coups de pied retournés",
+          "Coups de pied sautés",
+          "Techniques de blocage",
+          "Enchaînements dynamiques"
+        ]
+      },
+      "benefits": {
+        "title": "Bienfaits du Taekwondo",
+        "items": [
+          {
+            "title": "Condition Physique",
+            "description": "Développement de la force, souplesse et endurance"
+          },
+          {
+            "title": "Confiance en Soi",
+            "description": "Renforcement de l'estime personnelle et de l'assurance"
+          },
+          {
+            "title": "Développement du Caractère",
+            "description": "Discipline, respect et persévérance"
+          },
+          {
+            "title": "Bien-être Mental",
+            "description": "Gestion du stress et équilibre émotionnel"
+          },
+          {
+            "title": "Engagement Social",
+            "description": "Intégration dans une communauté de pratiquants"
+          },
+          {
+            "title": "Self-défense",
+            "description": "Techniques efficaces pour se protéger"
+          }
+        ]
+      },
+      "women": {
+        "title": "Taekwondo & Self-Défense Féminine",
+        "description": "Le Taekwondo est particulièrement recommandé pour les femmes souhaitant apprendre à se défendre. Les techniques de jambes permettent de maintenir une distance de sécurité face à un agresseur tout en développant confiance et assurance."
+      },
+      "audience": {
+        "title": "Pour Qui ?",
+        "description": "Le Taekwondo s'adresse à tous ceux qui recherchent :",
+        "items": [
+          "Pratique sportive complète",
+          "Art martial spectaculaire",
+          "Développement personnel",
+          "Self-défense efficace",
+          "Compétition (sport olympique)"
+        ]
+      },
+      "instructor": {
+        "title": "Votre Instructeur",
+        "credentials": [
+          "5ème Dan Taekwondo (USA)",
+          "5ème Dan Tang Soo Do (USA)",
+          "6ème Dan FFKDA Multi-disciplines",
+          "Brevet d'État Éducateur Sportif"
+        ]
+      },
+      "location": {
+        "title": "Lieux des Cours",
+        "description": "Cours de Taekwondo à Reims et ses environs (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Lancez-vous dans le Taekwondo",
+        "description": "Rejoignez nos cours de Taekwondo et découvrez un art martial spectaculaire et efficace.",
+        "button": "Réserver un cours d'essai"
+      }
     }
   }
 }
