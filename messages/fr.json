@@ -164,6 +164,115 @@
     "close": "Fermer",
     "loading": "Chargement...",
     "error": "Une erreur est survenue",
-    "viewAll": "Voir tout"
+    "viewAll": "Voir tout",
+    "backToHome": "Retour à l'accueil",
+    "trialClass": "Cours d'essai gratuit"
+  },
+  "pages": {
+    "kungfu": {
+      "metadata": {
+        "title": "Kung Fu Reims | Cours de Kung Fu Shaolin",
+        "description": "Cours de Kung Fu à Reims avec Grégory Bezruki, 8ème degré Temple Shaolin. Techniques de blocage, frappes, formes traditionnelles (Tao Lu) pour tous niveaux."
+      },
+      "hero": {
+        "title": "Kung Fu",
+        "chinese": "功夫",
+        "subtitle": "L'une des plus anciennes formes d'autodéfense"
+      },
+      "intro": {
+        "title": "Qu'est-ce que le Kung Fu ?",
+        "description": "Le Kung Fu est l'une des plus anciennes formes d'autodéfense, précurseur du karaté et du ju-jitsu. Le terme signifie « entraînement et discipline dans la voie vers un objectif », qu'il s'agisse d'amélioration de la santé, de développement spirituel ou de défense personnelle.",
+        "philosophy": "La discipline met l'accent sur l'harmonie avec l'adversaire plutôt que la domination. Les pratiquants recherchent « la complémentarité et non l'opposition » avec leur adversaire, se préservant par un engagement équilibré."
+      },
+      "techniques": {
+        "title": "Techniques & Entraînement",
+        "description": "Les élèves apprennent les techniques de blocage et de frappe, les formes (Tao Lu), les positions et les coups de pied. L'entraînement développe à la fois les compétences de combat et la discipline mentale.",
+        "items": [
+          "Techniques de blocage et de frappe",
+          "Formes traditionnelles (Tao Lu)",
+          "Positions et postures",
+          "Techniques de jambes",
+          "Discipline mentale"
+        ]
+      },
+      "styles": {
+        "title": "Styles Enseignés",
+        "items": [
+          {
+            "name": "Kung Fu Shaolin",
+            "description": "Art martial traditionnel du Temple Shaolin, enseigné par un disciple reconnu du Temple"
+          },
+          {
+            "name": "Wushu",
+            "description": "Art martial chinois moderne combinant techniques traditionnelles et acrobaties"
+          },
+          {
+            "name": "Sanda / Sanshu",
+            "description": "Sport de combat chinois, boxe chinoise incluant projections"
+          },
+          {
+            "name": "Wing Chun",
+            "description": "Style de Kung Fu du Sud caractérisé par ses techniques rapprochées"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Bienfaits par Âge",
+        "children": {
+          "title": "Enfants",
+          "items": [
+            "Développement de la motricité",
+            "Construction des capacités fonctionnelles (souplesse, endurance, vitesse)",
+            "Socialisation",
+            "Connaissance historique et philosophique"
+          ]
+        },
+        "teens": {
+          "title": "Adolescents",
+          "items": [
+            "Développement de la confiance",
+            "Cultivation de la volonté",
+            "Découverte de la coopération",
+            "Intégration sociale"
+          ]
+        },
+        "adults": {
+          "title": "Adultes",
+          "items": [
+            "Maintien de la condition physique",
+            "Réduction du stress",
+            "Engagement social épanouissant"
+          ]
+        },
+        "seniors": {
+          "title": "Seniors",
+          "items": [
+            "Maintien de la forme générale",
+            "Amélioration de la mémoire",
+            "Lutte contre l'isolement"
+          ]
+        }
+      },
+      "instructor": {
+        "title": "Votre Instructeur",
+        "credentials": [
+          "8ème Degré Temple Shaolin (Henan, Chine)",
+          "8ème Duan Kung Fu (USA)",
+          "6ème Duan Kung Fu FFAEMC (Janvier 2022)",
+          "6 ans d'entraînement au Temple Shaolin (1998-2005)",
+          "Disciple et représentant du Temple pour le Nord de la France"
+        ]
+      },
+      "purpose": "Le Kung Fu permet « l'épanouissement de l'individu, qu'il soit physique, psychologique ou relationnel. »",
+      "location": {
+        "title": "Lieux des Cours",
+        "description": "Cours collectifs de Kung Fu à Reims et ses environs (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Commencez Votre Parcours",
+        "description": "Rejoignez nos cours de Kung Fu et découvrez un art martial millénaire.",
+        "button": "Réserver un cours d'essai"
+      }
+    }
   }
 }

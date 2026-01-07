@@ -164,6 +164,115 @@
     "close": "Close",
     "loading": "Loading...",
     "error": "An error occurred",
-    "viewAll": "View all"
+    "viewAll": "View all",
+    "backToHome": "Back to home",
+    "trialClass": "Free trial class"
+  },
+  "pages": {
+    "kungfu": {
+      "metadata": {
+        "title": "Kung Fu Reims | Shaolin Kung Fu Classes",
+        "description": "Kung Fu classes in Reims with Grégory Bezruki, 8th degree Shaolin Temple. Blocking techniques, strikes, traditional forms (Tao Lu) for all levels."
+      },
+      "hero": {
+        "title": "Kung Fu",
+        "chinese": "功夫",
+        "subtitle": "One of the oldest forms of self-defense"
+      },
+      "intro": {
+        "title": "What is Kung Fu?",
+        "description": "Kung Fu is one of the oldest forms of self-defense, the predecessor to karate and ju-jitsu. The term signifies \"training and discipline in the path toward an objective,\" which may involve health improvement, spiritual development, or personal defense.",
+        "philosophy": "The discipline emphasizes harmony with opponents rather than dominance. Practitioners seek \"complementarity and not opposition\" with their adversary, preserving themselves through balanced engagement."
+      },
+      "techniques": {
+        "title": "Techniques & Training",
+        "description": "Students learn blocking and striking techniques, forms (Tao Lu), positions, and kicks. Training develops both combat skills and mental discipline.",
+        "items": [
+          "Blocking and striking techniques",
+          "Traditional forms (Tao Lu)",
+          "Positions and stances",
+          "Leg techniques",
+          "Mental discipline"
+        ]
+      },
+      "styles": {
+        "title": "Styles Taught",
+        "items": [
+          {
+            "name": "Shaolin Kung Fu",
+            "description": "Traditional martial art from the Shaolin Temple, taught by a recognized Temple disciple"
+          },
+          {
+            "name": "Wushu",
+            "description": "Modern Chinese martial art combining traditional techniques and acrobatics"
+          },
+          {
+            "name": "Sanda / Sanshu",
+            "description": "Chinese combat sport, Chinese boxing including throws"
+          },
+          {
+            "name": "Wing Chun",
+            "description": "Southern Kung Fu style characterized by close-range techniques"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Benefits by Age",
+        "children": {
+          "title": "Children",
+          "items": [
+            "Motor skill development",
+            "Building functional capacity (flexibility, endurance, speed)",
+            "Socialization",
+            "Historical and philosophical knowledge"
+          ]
+        },
+        "teens": {
+          "title": "Teenagers",
+          "items": [
+            "Confidence development",
+            "Willpower cultivation",
+            "Discovery of cooperation",
+            "Social integration"
+          ]
+        },
+        "adults": {
+          "title": "Adults",
+          "items": [
+            "Physical fitness maintenance",
+            "Stress reduction",
+            "Fulfilling social engagement"
+          ]
+        },
+        "seniors": {
+          "title": "Seniors",
+          "items": [
+            "General fitness maintenance",
+            "Memory enhancement",
+            "Combating isolation"
+          ]
+        }
+      },
+      "instructor": {
+        "title": "Your Instructor",
+        "credentials": [
+          "8th Degree Shaolin Temple (Henan, China)",
+          "8th Duan Kung Fu (USA)",
+          "6th Duan Kung Fu FFAEMC (January 2022)",
+          "6 years training at Shaolin Temple (1998-2005)",
+          "Disciple and Temple representative for Northern France"
+        ]
+      },
+      "purpose": "Kung Fu achieves \"the flourishing of the individual, whether physical, psychological, or relational.\"",
+      "location": {
+        "title": "Class Locations",
+        "description": "Collective Kung Fu courses in Reims and surrounding areas (Tinqueux, Saint-Brice-Courcelles, Champigny, Cormontreuil, Bétheny)."
+      },
+      "cta": {
+        "title": "Start Your Journey",
+        "description": "Join our Kung Fu classes and discover a millennial martial art.",
+        "button": "Book a trial class"
+      }
+    }
   }
 }

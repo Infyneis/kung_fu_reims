@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
+import { Link } from '@/i18n/navigation';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -18,13 +19,13 @@ import {
 } from 'lucide-react';
 
 const disciplines = [
-  { key: 'kungfu', icon: Sword, color: 'crimson' },
-  { key: 'kravmaga', icon: Shield, color: 'gold' },
-  { key: 'jeetkundo', icon: Zap, color: 'crimson' },
-  { key: 'taichi', icon: Wind, color: 'gold' },
-  { key: 'taekwondo', icon: Target, color: 'crimson' },
-  { key: 'mma', icon: Flame, color: 'gold' },
-  { key: 'children', icon: Users, color: 'crimson' },
+  { key: 'kungfu', icon: Sword, color: 'crimson', slug: 'kung-fu' },
+  { key: 'kravmaga', icon: Shield, color: 'gold', slug: null },
+  { key: 'jeetkundo', icon: Zap, color: 'crimson', slug: null },
+  { key: 'taichi', icon: Wind, color: 'gold', slug: null },
+  { key: 'taekwondo', icon: Target, color: 'crimson', slug: null },
+  { key: 'mma', icon: Flame, color: 'gold', slug: null },
+  { key: 'children', icon: Users, color: 'crimson', slug: null },
 ];
 
 const containerVariants = {
@@ -144,14 +145,28 @@ export function Disciplines() {
                         </Badge>
                       ))}
                     </div>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className={`p-0 h-auto ${colorClass} hover:${colorClass} group/btn`}
-                    >
-                      {t('learnMore')}
-                      <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
-                    </Button>
+                    {discipline.slug ? (
+                      <Link href={`/disciplines/${discipline.slug}`}>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className={`p-0 h-auto ${colorClass} hover:${colorClass} group/btn`}
+                        >
+                          {t('learnMore')}
+                          <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
+                        </Button>
+                      </Link>
+                    ) : (
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        className={`p-0 h-auto ${colorClass} hover:${colorClass} group/btn opacity-50 cursor-default`}
+                        disabled
+                      >
+                        {t('learnMore')}
+                        <ArrowRight className="w-4 h-4 ml-1" />
+                      </Button>
+                    )}
                   </CardContent>
                 </Card>
               </motion.div>
