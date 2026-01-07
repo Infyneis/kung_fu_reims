@@ -73,23 +73,26 @@ export function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative">
-              <span className="text-3xl font-bold chinese-text text-gold">
+          <Link href="/" className="flex items-center gap-4 group">
+            <motion.div
+              className="relative w-12 h-12 flex items-center justify-center"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+              {/* Outer ring */}
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-crimson to-crimson-dark shadow-lg shadow-crimson/20" />
+              {/* Inner ring accent */}
+              <div className="absolute inset-[2px] rounded-full border border-gold/30" />
+              {/* Character */}
+              <span className="relative text-2xl font-bold chinese-text text-gold drop-shadow-sm">
                 武
               </span>
-              <motion.div
-                className="absolute -inset-2 bg-crimson/20 rounded-full -z-10"
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 0.2 }}
-              />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-lg font-bold text-foreground group-hover:text-gold transition-colors">
+            </motion.div>
+            <div className="flex flex-col leading-tight">
+              <span className="text-lg font-bold tracking-tight text-foreground group-hover:text-gold transition-colors duration-300">
                 Arts Martiaux
               </span>
-              <span className="text-xs text-gold tracking-widest uppercase">
+              <span className="text-[11px] font-semibold text-gold/80 tracking-[0.25em] uppercase">
                 Reims
               </span>
             </div>
@@ -153,13 +156,17 @@ export function Navigation() {
               <SheetContent side="right" className="w-80 bg-background border-border">
                 <div className="flex flex-col h-full pt-8">
                   {/* Mobile Logo */}
-                  <div className="flex items-center gap-3 mb-8 px-2">
-                    <span className="text-3xl font-bold chinese-text text-gold">
-                      武
-                    </span>
-                    <div className="flex flex-col">
-                      <span className="text-lg font-bold">Arts Martiaux</span>
-                      <span className="text-xs text-gold tracking-widest uppercase">
+                  <div className="flex items-center gap-4 mb-8 px-2">
+                    <div className="relative w-12 h-12 flex items-center justify-center">
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-br from-crimson to-crimson-dark shadow-lg shadow-crimson/20" />
+                      <div className="absolute inset-[2px] rounded-full border border-gold/30" />
+                      <span className="relative text-2xl font-bold chinese-text text-gold drop-shadow-sm">
+                        武
+                      </span>
+                    </div>
+                    <div className="flex flex-col leading-tight">
+                      <span className="text-lg font-bold tracking-tight">Arts Martiaux</span>
+                      <span className="text-[11px] font-semibold text-gold/80 tracking-[0.25em] uppercase">
                         Reims
                       </span>
                     </div>

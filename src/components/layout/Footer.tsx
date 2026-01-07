@@ -48,13 +48,19 @@ export function Footer() {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <div className="flex items-center gap-3">
-              <span className="text-4xl font-bold chinese-text text-gold">武</span>
-              <div className="flex flex-col">
-                <span className="text-xl font-bold text-foreground">
+            <div className="flex items-center gap-4">
+              <div className="relative w-14 h-14 flex items-center justify-center">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-crimson to-crimson-dark shadow-lg shadow-crimson/20" />
+                <div className="absolute inset-[2px] rounded-full border border-gold/30" />
+                <span className="relative text-2xl font-bold chinese-text text-gold drop-shadow-sm">
+                  武
+                </span>
+              </div>
+              <div className="flex flex-col leading-tight">
+                <span className="text-xl font-bold tracking-tight text-foreground">
                   Arts Martiaux
                 </span>
-                <span className="text-sm text-gold tracking-widest uppercase">
+                <span className="text-[11px] font-semibold text-gold/80 tracking-[0.25em] uppercase">
                   Reims
                 </span>
               </div>
