@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { Button } from '@/components/ui/button';
@@ -11,11 +11,11 @@ import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navItems = [
-  { key: 'home', href: '/' },
-  { key: 'disciplines', href: '/#disciplines' },
-  { key: 'about', href: '/#about' },
-  { key: 'schedule', href: '/#schedule' },
-  { key: 'contact', href: '/#contact' },
+  { key: 'home', href: '/', sectionId: null },
+  { key: 'disciplines', href: '/#disciplines', sectionId: 'disciplines' },
+  { key: 'about', href: '/#about', sectionId: 'about' },
+  { key: 'schedule', href: '/#schedule', sectionId: 'schedule' },
+  { key: 'contact', href: '/#contact', sectionId: 'contact' },
 ];
 
 export function Navigation() {
@@ -25,6 +25,55 @@ export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [currentLocale, setCurrentLocale] = useState('fr');
+  const [activeSection, setActiveSection] = useState<string | null>(null);
+
+  const isHomePage = pathname === '/' || pathname === '';
+
+  // Scroll spy logic
+  useEffect(() => {
+    if (!isHomePage) return;
+
+    const sectionIds = navItems
+      .filter((item) => item.sectionId)
+      .map((item) => item.sectionId as string);
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '-20% 0px -60% 0px',
+      threshold: 0,
+    };
+
+    const observerCallback = (entries: IntersectionObserverEntry[]) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    sectionIds.forEach((id) => {
+      const element = document.getElementById(id);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+
+    // Handle scroll to top (home)
+    const handleScroll = () => {
+      if (window.scrollY < 100) {
+        setActiveSection(null);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isHomePage]);
 
   useEffect(() => {
     const locale = window.location.pathname.startsWith('/en') ? 'en' : 'fr';
@@ -57,7 +106,20 @@ export function Navigation() {
     }
   };
 
-  const isHomePage = pathname === '/' || pathname === '';
+  // Determine if a nav item is active
+  const isNavItemActive = (item: typeof navItems[0]) => {
+    // On homepage, use scroll spy
+    if (isHomePage) {
+      // Home is active when at top (no section active)
+      if (item.sectionId === null) {
+        return activeSection === null;
+      }
+      // Other items active when their section is in view
+      return activeSection === item.sectionId;
+    }
+    // On other pages, only highlight if exact match
+    return pathname === item.href;
+  };
 
   return (
     <motion.header
@@ -113,7 +175,7 @@ export function Navigation() {
                 className={cn(
                   'px-4 py-2 text-sm font-medium rounded-md transition-all duration-200',
                   'hover:text-gold hover:bg-gold/10',
-                  pathname === item.href || (item.href === '/' && isHomePage)
+                  isNavItemActive(item)
                     ? 'text-gold bg-gold/10'
                     : 'text-muted-foreground'
                 )}
