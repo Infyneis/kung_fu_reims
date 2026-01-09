@@ -19,6 +19,7 @@ import {
   Users,
   Award,
 } from 'lucide-react';
+import Image from 'next/image';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -100,6 +101,19 @@ export default function TaichiPage() {
             className="grid md:grid-cols-2 gap-12 items-center"
           >
             <motion.div variants={fadeInUp}>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                <Image
+                  src="/images/disciplines/taichi-qi-gong.jpg"
+                  alt="Taichi Qi Gong"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+              </div>
+            </motion.div>
+
+            <motion.div variants={fadeInUp}>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gold">
                 {t('intro.title')}
               </h2>
@@ -110,22 +124,32 @@ export default function TaichiPage() {
                 {t('intro.history')}
               </p>
             </motion.div>
+          </motion.div>
+        </div>
+      </section>
 
-            <motion.div variants={fadeInUp}>
-              <Card className="bg-card/50 border-gold/20">
-                <CardContent className="p-8">
-                  <div className="flex items-center gap-3 mb-6">
-                    <Award className="w-8 h-8 text-gold" />
-                    <h3 className="text-xl font-semibold">
-                      {t('recognition.title')}
-                    </h3>
-                  </div>
-                  <p className="text-muted-foreground">
-                    {t('recognition.description')}
-                  </p>
-                </CardContent>
-              </Card>
-            </motion.div>
+      {/* Recognition Section */}
+      <section className="py-16 md:py-24 bg-gradient-to-b from-transparent via-gold/5 to-transparent">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-3xl mx-auto"
+          >
+            <Card className="bg-card/50 border-gold/20">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-6">
+                  <Award className="w-8 h-8 text-gold" />
+                  <h3 className="text-xl font-semibold">
+                    {t('recognition.title')}
+                  </h3>
+                </div>
+                <p className="text-muted-foreground">
+                  {t('recognition.description')}
+                </p>
+              </CardContent>
+            </Card>
           </motion.div>
         </div>
       </section>

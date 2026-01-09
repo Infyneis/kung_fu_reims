@@ -16,6 +16,7 @@ import {
   Quote,
   Sparkles,
 } from 'lucide-react';
+import Image from 'next/image';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -96,9 +97,21 @@ export default function JeetKuneDoPage() {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="max-w-4xl mx-auto"
+            className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto"
           >
-            <motion.div variants={fadeInUp} className="mb-12">
+            <motion.div variants={fadeInUp}>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                <Image
+                  src="/images/disciplines/jeet-kune-do-mma.jpg"
+                  alt="Jeet Kune Do"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+              </div>
+            </motion.div>
+            <motion.div variants={fadeInUp}>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gold">
                 {t('intro.title')}
               </h2>
